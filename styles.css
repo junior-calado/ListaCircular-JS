@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e1014; /* Cor mais escura para o fundo */
+    color: #d4d7dc; /* Cor do texto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#app {
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+    background-color: #1f232a; /* Cor mais escura para a área do aplicativo */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(65, 65, 65, 0.5); /* Sombra suave */
+}
+
+h1 {
+    color: #c6d2d5; 
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #c6d2d5;
+    color: #0e1014; 
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(67, 0, 94);
+    color: #fefefe;
+}
+
+#mensagem, #produtoEncontrado {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #1f232a;
+    color: #d4d7dc;
+    border-radius: 5px;
+}
+
+#lista {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #c6d2d5;
+    color: #0f0f10;
+    border-radius: 5px;
+}
+
+#lista table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+#lista th, #lista td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #0e1014;
+}
